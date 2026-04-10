@@ -25,12 +25,12 @@ require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
     shell_exec($cmd);
   }
 
-  function linksys_post_plugin_install() {
+  /*function linksys_post_plugin_install() {
     InstallComposerDependencies();
-  }
+  }*/
 // Fonction exécutée automatiquement après l'installation du plugin
   function blueswim_install() {
-
+    InstallComposerDependencies();
   }
 
 // Fonction exécutée automatiquement après la mise à jour du plugin
