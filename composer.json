@@ -1,6 +1,5 @@
 {
   "name": "jeedom/blueswim",
-  "type": "project",
   "require": {
     "guzzlehttp/guzzle": "^7.0",
     "aws/aws-sdk-php": "^3.171"
@@ -11,8 +10,7 @@
     },
     "optimize-autoloader": true,
     "preferred-install": "dist",
-    "audit": {
-      "block-insecure": false
-    }
+    "sort-packages": true,
+    "allow-plugins": {}
   }
 }
