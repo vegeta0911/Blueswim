@@ -2,7 +2,7 @@
   "name": "jeedom/blueswim",
   "type": "project",
   "require": {
-    "guzzlehttp/guzzle": "^7",
+    "guzzlehttp/guzzle": "^7.0",
     "aws/aws-sdk-php": "^3.171"
   },
   "config": {
