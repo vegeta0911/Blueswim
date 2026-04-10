@@ -17,10 +17,7 @@
  */
 
 /* * ***************************Includes********************************* */
-require_once __DIR__  . '/../../../../core/php/core.inc.php';
-require_once __DIR__  . '/../../core/php/logging.inc.php';
-require_once __DIR__ . '/../../vendor/autoload.php';
-
+require_once dirname(__FILE__) . '/../../core/php/blueswim.inc.php';
 use Aws\Credentials\Credentials;
 use Aws\Signature\SignatureV4;
 use GuzzleHttp\Client;
@@ -531,3 +528,5 @@ class blueswimCmd extends cmd {
 
 	/*     * **********************Getteur Setteur*************************** */
 }
+
+
